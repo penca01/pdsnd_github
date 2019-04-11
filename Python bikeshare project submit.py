@@ -162,6 +162,9 @@ def user_stats(df):
 
 
 def raw_data(df):
+    """Limits the output to 5 lines at a time for ease of readibility.
+    After loading the data, it asks the user whether they would like to see
+    the next 5 lines of data."""
     record = 0
     while True:
         print(df[0:5])
