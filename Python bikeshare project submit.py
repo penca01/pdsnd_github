@@ -178,6 +178,9 @@ def raw_data(df):
 
 
 def main():
+    """Defines the main set of operations.
+    Loads all defined variables when a city month and day are input by a user.
+    Asks the user whether they would like to restart the application and view other data."""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
@@ -188,7 +191,7 @@ def main():
         user_stats(df)
         raw_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart and view additional data? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
