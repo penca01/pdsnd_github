@@ -1,5 +1,5 @@
-#Andrea Chung's Python bikeshare project
-<Welcome to my bikeshare project!>
+# Andrea Chung's Python bikeshare project
+> Welcome to my bikeshare project!
 
 ### Date created
 This project was created on March 23, 2019.
