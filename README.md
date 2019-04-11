@@ -19,5 +19,10 @@ I used the following files in my project (data files were provided by Udacity):
 * washington.csv
   * This file contained data about Washington D.C.'s bikeshare program (not to be confused with Washington state)
 
+> I used Udacity's built-in workspace to write and run the script for this project. However, I also used Anaconda and Jupyter Notebook to run other elements of the project and course. For information on how to download and install Anaconda (which includes Jupyter Notebook) for Windows, [click here](https://docs.anaconda.com/anaconda/install/windows/).
+
 ### Credits
 I want to give a shout-out to Udacity and Udacity mentors, without whom I couldn't have completed this project.  
+
+
+*This page was last updated on April 10, 2019*
